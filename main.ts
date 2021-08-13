@@ -75,7 +75,7 @@ enum VisionDetect_Others {
 /**
  * Coolguy advanced extension
  */
-//% weight=100 color=#ffc500 icon="\uf17b"
+//% weight=104 color=#ffc500 icon="\uf17b"
 //% groups=['wtr50_1', 'SoundSensor', 'VisionSensor', 'WIFI']
 namespace Coolguy_advan {
 
