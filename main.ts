@@ -612,7 +612,7 @@ namespace Coolguy_advan {
 
     //----------------------多路语音----------------------------------
     let wtr050_pin: DigitalPin;
-
+    let tstime = 0;
     function wtr050_sendbyte(val: number): void {
         let i: number;
 
@@ -623,7 +623,7 @@ namespace Coolguy_advan {
                 pins.digitalWritePin(wtr050_pin, 1);
             else
                 pins.digitalWritePin(wtr050_pin, 0);
-            control.waitMicros(81);
+            control.waitMicros(tstime);
             val >>= 1;
         }
         pins.digitalWritePin(wtr050_pin, 1);
