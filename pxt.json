@@ -1,9 +1,11 @@
 {
     "name": "Coolguy_advan_extension",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "description": "Coolguy advanced extension",
+    "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "microphone": "*"
     },
     "files": [
         "README.md",
@@ -14,6 +16,5 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
-    "license": "MIT"
+    "public": true
 }
