@@ -76,7 +76,7 @@ enum VisionDetect_Others {
  * Coolguy advanced extension
  */
 //% weight=104 color=#ffc500 icon="\uf17b"
-//% groups=['wtr50_1', 'SoundSensor', 'VisionSensor', 'WIFI']
+//% groups=['wtr50_1', 'SoundSensor', 'WIFI']
 namespace Coolguy_advan {
 
     //----------------------WIFI-------------------------------------
@@ -634,11 +634,17 @@ namespace Coolguy_advan {
      * wtr50 init
      */
     //% blockId=coolguy_wtr050_Init
-    //% block="Set port at %pin|"
+    //% block="Board%bversion|Set port at %pin|"
     //% group=wtr50_1
     //% exterpin.fieldEditor="gridpicker" exterpin.fieldOptions.columns=2
     //% exterpin.fieldOptions.tooltips="false" exterpin.fieldOptions.width="150"
-    export function wtr050_Init(exterpin: exter_ports3) {
+    export function wtr050_Init(bversion: BoardType, exterpin: exter_ports3) {
+        if (bversion) {
+            tstime = 106;
+        }
+        else {
+            tstime = 74;
+        }
         switch (exterpin) {
             case exter_ports3.J1:
                 wtr050_pin = DigitalPin.P0;

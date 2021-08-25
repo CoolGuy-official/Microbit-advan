@@ -19,7 +19,7 @@
   "Coolguy_advan.iCloudMemory_iCloud_Read_String|block": "从WIFI地址%MACaddr|和云地址%addr|读取字符串",
   "Coolguy_advan.iCloudMemory_iCloud_Write_num|block": "将数字%data|存到云地址%addr|",
   "Coolguy_advan.iCloudMemory_iCloud_Write_str|block": "将字符串%data|存到云地址%addr|",
-  "Coolguy_advan.wtr050_Init|block": "多路语音端口初始化于%pin|",
+  "Coolguy_advan.wtr050_Init|block": "主板%bversion|多路语音端口初始化于%pin|",
   "Coolguy_advan.wtr050_playvoice|block": "播放通道%chan|的录音",
   "Coolguy_advan.wtr050_recordstart|block": "向通道%chan|中录音",
   "Coolguy_advan.wtr050_recordstop|block": "停止录音",
