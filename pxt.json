@@ -1,11 +1,12 @@
 {
     "name": "Coolguy_advan_extension",
-    "version": "0.2.11",
+    "version": "0.2.12",
     "description": "Coolguy advanced extension",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-cooltalker": "github:CoolGuy-official/pxt-cooltalker"
     },
     "files": [
         "README.md",

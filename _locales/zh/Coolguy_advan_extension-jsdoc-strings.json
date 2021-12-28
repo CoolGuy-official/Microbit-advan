@@ -1,5 +1,5 @@
 {
-  "Coolguy_advan": "自定义图形块",
+  "Coolguy_advan": "酷哥进阶",
   "Coolguy_advan.SoundSensor_AsrResult": "语音识别(文字对话)内容",
   "Coolguy_advan.SoundSensor_End_conversation": "模块停止采集语音",
   "Coolguy_advan.SoundSensor_Result_flag": "语音识别(文字对话)内容结果",
@@ -11,7 +11,8 @@
   "Coolguy_advan.SoundSensor_Start_conversation": "模块采集语音",
   "Coolguy_advan.SoundSensor_TtsContent": "模块发送内容",
   "Coolguy_advan.SoundSensor_Vocice_conversation": "按键对话",
-  "Coolguy_advan.SoundSensor_WaitInit": "模块初始化",  "Coolguy_advan.iCloudMemory_Serial_Init": "WIFI模块初始化",
+  "Coolguy_advan.SoundSensor_WaitInit": "模块初始化",
+  "Coolguy_advan.iCloudMemory_Serial_Init": "WIFI模块初始化",
   "Coolguy_advan.iCloudMemory_WiFi_SSIDPWD_Config": "WIFI模块设置",
   "Coolguy_advan.iCloudMemory_WiFi_SSIDPWD_Config|param|PASSWORD": "Key, eg: robotrobot",
   "Coolguy_advan.iCloudMemory_WiFi_SSIDPWD_Config|param|SSID": "ID, eg: \"CoolGuyRobot\"",
