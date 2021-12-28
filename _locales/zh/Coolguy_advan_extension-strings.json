@@ -56,5 +56,6 @@
   "{id:category}Coolguy_advan": "酷哥进阶",
   "{id:group}SoundSensor": "人工智能模块",
   "{id:group}WIFI": "WIFI模块",
-  "{id:group}wtr50_1": "多路语音模块"
+  "{id:group}wtr50_1": "多路语音模块",
+  "{id:group}CoolTalker": "小酷宝语音模块"
 }
