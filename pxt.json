@@ -1,7 +1,7 @@
 {
     "name": "Coolguy_advan_extension",
     "version": "0.2.12",
-    "description": "Coolguy advanced extension",
+    "description": "Coolguy advanced extension ",
     "license": "MIT",
     "dependencies": {
         "core": "*",
